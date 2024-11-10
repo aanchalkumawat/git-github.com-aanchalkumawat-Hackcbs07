@@ -1,0 +1,28 @@
+.footer {
+  background-color: #ffe5b4; /* Pastel yellow */
+  padding: 20px;
+  
+  text-align: center;
+  color: #ff6f00; /* Dark pastel orange */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Ensure it spans the entire width */
+  margin-top:auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem; /* Slightly larger text for better visibility */
+}
+
+.footer a {
+  color: #ff6f00; /* Dark pastel orange for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ff8c00; /* Lighter pastel orange on hover */
+}

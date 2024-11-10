@@ -1,0 +1,46 @@
+.report-section {
+  background-color: #ffe5b4; /* Background similar to your theme */
+  border-radius: 15px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  text-align: center; /* Center the heading */
+  max-height: 400px;
+
+}
+.report-heading{
+  font-size:2.6rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.report-section h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #ff6f00; /* Themed color */
+  margin-bottom: 15px;
+  font-size: 2.8rem;
+}
+
+.report-content {
+  height: auto; /* Adjust based on content */
+  overflow: hidden;
+}
+.download-button {
+  background-color: #ff6f00; /* Similar to your theme color */
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.download-button:hover {
+  background-color: #ff8c1a; /* Slightly lighter shade for hover effect */
+  transform: scale(1.05);
+}
+
+.download-button:focus {
+  outline: none;
+}

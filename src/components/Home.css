@@ -1,0 +1,118 @@
+.home {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff9f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.home h1 {
+  text-align: center;
+  color: #ff6f00;
+  font-size: 2.5rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.home form {
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 20px;
+}
+
+.home input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 40px;
+}
+
+.home button {
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: #e65c00;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between; /* Space between the nutrition logs and chart */
+  gap: 20px; /* Add some space between the 
+  sections */
+  margin-left: 40px;
+}
+
+.nutrition-data {
+  flex: 1;
+}
+
+.nutrition-chart {
+  flex: 1;
+  max-width: 500px; /* Control the width of the chart */
+}
+
+
+.nutrition-item {
+  margin-bottom: 20px;
+}
+
+.nutrition-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.nutrition-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.nutrition-item button {
+  background-color: #ff6f00;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nutrition-item button:hover {
+  background-color: #e65c00;
+}
+
+.nutrition-chart {
+  width: 48%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: -58px;
+  margin-right: 140px;
+}
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stickers {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stickers iframe {
+  border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+.main-page {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+  background-color: #ffebc0; /* Soft pastel yellow background */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  min-height: 300px
+}
+
+.main-page h1 {
+  color: #ff6f00; /* Bright orange color */
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+}
+
+.main-page p {
+  color: #555555; /* Soft gray for the text */
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.main-page button {
+  padding: 10px 20px;
+  background-color: #ff9900; /* Bright yellow-orange */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.main-page button:hover {
+  background-color: #ffbf00; /* Slightly lighter yellow-orange on hover */
+  transform: scale(1.05);
+}
+
+.main-page button:active {
+  transform: scale(0.98);
+}

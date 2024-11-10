@@ -1,0 +1,66 @@
+/* Image Recognition CSS with pastel orange and yellow color scheme */
+.image-recognition {
+  text-align: center;
+  padding: 40px;
+  background-color: #f6e0b5; /* Soft pastel yellow */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers all content horizontally */
+}
+
+.image-recognition h2 {
+  font-size: 28px;
+  color: #ff7043; /* Playful orange for heading */
+  font-size: 2.6rem;
+}
+
+.image-recognition img.image-banner {
+  width: 100%;
+  height: 50vh; /* Makes the image cover half the height of the viewport */
+  object-fit: cover; /* Ensures the image doesn't stretch */
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+.image-recognition input {
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #ff7043;
+  border-radius: 4px;
+  width: 80%; /* Controls input width */
+  max-width: 500px; /* Ensures input doesn't stretch too much */
+}
+
+.image-recognition input[type="file"] {
+  width: auto;
+}
+
+.image-recognition button {
+  padding: 16px 32px;
+  background-color: #ff8a65; /* Warm pastel orange button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.image-recognition button:hover {
+  background-color: #ff7043; /* Darker orange on hover */
+}
+
+.image-recognition .result {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff7043; /* Dark pastel orange for result text */
+}
+
+.image-recognition .confidence {
+  font-size: 18px;
+  color: #ffcc80; /* Light pastel yellow for confidence text */
+}

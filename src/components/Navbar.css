@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fbe0a4; /* Soft pastel yellow background */
+  padding: 15px 25px;
+  color: #7f5a58; /* Muted brownish color for text */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff7043; /* Soft coral orange for the logo */
+  letter-spacing: 1px; /* Adds spacing for a clean look */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #ff7043; /* Soft coral orange for the links */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 25px; /* Rounded links for a smoother feel */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-links a:hover {
+  color: #fff; /* White text on hover */
+  background-color: #ff5722; /* Darker orange background on hover */
+  transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
