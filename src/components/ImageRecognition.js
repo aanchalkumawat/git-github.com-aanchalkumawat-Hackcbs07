@@ -33,7 +33,7 @@ function ImageRecognition() {
   return (
     <div className="image-recognition">
       <img src="image7.jpg" alt="Banner" className="image-banner" />
-      <h2>Image Recognition</h2>
+      <h2>Upload Analyze Eat !</h2>
       <input type="file" onChange={handleImageChange} />
       <button onClick={handleImageSubmit}>Submit</button>
 
